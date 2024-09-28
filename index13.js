@@ -13,6 +13,18 @@ for(i=1;i<=2*rows-1;i++){
         console.log(res + " ".repeat(spaces)+ res)
 }
 
+
+//output : 
+            // *       *
+            // **     **
+            // ***   ***
+            // **** ****
+            // *********
+            // **** ****
+            // ***   ***
+            // **     **
+            // *       *
+    
 let rows =+prompt("enter a no of rows : ")
 for(i=1;i<=2*rows-1;i++){
     stars = (i<=rows) ? i : 2*rows-i;
@@ -31,3 +43,14 @@ for(i=1;i<=2*rows-1;i++){
         console.log(res+" ".repeat(spaces) + res)
    
 }
+
+// output : 
+            // 1       1
+            // 10     10
+            // 101   101
+            // 1010 1010
+            // 101010101
+            // 1010 1010
+            // 101   101
+            // 10     10
+            // 1       1
